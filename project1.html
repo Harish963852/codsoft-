@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://th.bing.com/th/id/R.41d62814ca1dadddfc751e79bfcef6d1?rik=i%2b7e2rzsN46n0Q&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f01%2fbeautiful-wallpaper-29.jpg&ehk=H4ckWzqVL%2fG9j9pIIJnQZb6%2frR2nO5xS%2bFpwVgSkfYo%3d&risl=&pid=ImgRaw&r=0');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.5); /* Transparent black background */
+            padding: 1px; /* Adjust the padding to reduce height */
+            color: #fff;
+            line-height: 0.2px; /* Adjust the line-height for better readability */
+        }
+
+        .background-image {
+            display: flex;
+          
+            justify-content: center;
+            min-height: 70vh;
+            color: #fff;
+            text-align: left;
+        }
+
+        .content .text{
+color:black;
+      width: 40%;
+
+    }
+    .content .text h1{
+      font-size: 36px;
+      font-weight: bold;
+
+    }
+    .content .text p{
+      font-size: 18px;
+      margin: 20px 0;
+
+    }
+    .content .text .form{
+      display: flex;
+      align-items: center;
+
+    }
+    .content .text .form input{
+      width: 70%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+
+    }
+    .content .text .form button{
+      width: 20%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background:yellow;
+      color: black;
+    }
+    .content .image{
+      width: 40%;
+      height: 400px;
+      background: url(images.jpeg);
+
+    }
+
+        }
+
+        h1 {
+            font-size: ;
+            margin-bottom: 20px;
+        
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end; /* Align buttons to the right */
+       top=0%;
+            padding: 0px;
+        }
+
+        nav a {
+       background-color: rgba(51, 51, 51, 0.5);
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1;
+            margin: 0 10px; /* Add margin for spacing between buttons */
+            padding: 8px 12px; /* Add padding to make the buttons more clickable */
+            border: 10px; /* Remove border */
+            position: relative;
+            background: transparent; /* Set background to transparent */
+        }
+
+        nav a:after {
+            content: '';
+            display: block;
+            height: 2px; /* Underline height */
+            width: 0;
+            background: red;/* Set underline background to transparent */
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transition: width 0.3s ease-in-out;
+        }
+
+        nav a:hover:after {
+            width: 100%;
+            left: 0;
+            background: #3498db; /* Change underline color on hover for Home */
+        }
+
+        nav a:nth-child(2):after {
+            background: transparent; /* Set underline background to transparent for Explore */
+        }
+
+        nav a:nth-child(2):hover:after {
+            background: #e74c3c; /* Change underline color on hover for Explore */
+        }
+
+        nav a:nth-child(3):after {
+            background: transparent; /* Set underline background to transparent for Business */
+        }
+
+        nav a:nth-child(3):hover:after {
+            background: #2ecc71; /* Change underline color on hover for Business */
+        }
+
+        nav a:nth-child(4):after {
+            background: transparent; /* Set underline background to transparent for Account */
+        }
+
+        nav a:nth-child(4):hover:after {
+            background: #f39c12; /* Change underline color on hover for Account */
+        }
+
+        footer {
+            background-color: rgba(51, 51, 51, 0.5); /* Transparent black background */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            bottom: 50%;
+            width: 100%;
+        }
+    </style>
+    <title>Page with Transparent Header, Content, and Footer</title>
+</head>
+<body>
+ 
+    <header>
+        <h1><u>𝓗𝓪𝓻𝓲𝓼𝓱 𝓣𝓻𝓪𝓿𝓮𝓵</u>
+
+ <img src="https://th.bing.com/th/id/OIP.Rt2az7wwVhQlGmbtQ6D1MAAAAA?rs=1&pid=ImgDetMain" width=5% hight=5% top=0% right=100%></h1>
+
+ <nav>
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Business</a>
+        <a href="#">Account</a>
+      </nav>
+       </header>
+      
+
+    <div class="background-image">
+        <div class="content">
+           <p>
+<h2>𝓒𝓞𝓜𝓘𝓝𝓖 𝓜𝓐𝓨 2024</h2>
+My Travel Blog is almost ready. Be one of the first to experience it by
+entering your email below.<br>
+ I'll notify you as soon as it's live. Let's do this!</p>
+ <div  class="text">
+      <div class="form">
+
+<input type="text" placeholder="First and last Name">
+</div><div><p>
+
+</p></div>
+<div class="form">
+        <input type="email" placeholder="enter your email">
+        <button>Sign Up</button>
+      </div>
+    </div>
+       
+    </div>
+ </div>
+    <footer>
+        <p>&copy; 2024 Harish Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
